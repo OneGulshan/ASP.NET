@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP", "ASP\ASP.csproj", "{7EDE74C4-08FF-474B-9889-08BEE0986AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jQuery", "jQuery\jQuery.csproj", "{6C7B7896-A6C3-4B6B-8F59-8ECC85244155}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebService", "WebService\", "{12ED862E-293C-49E2-8921-53269C07CC9F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{6c7b7896-a6c3-4b6b-8f59-8ecc85244155}|jQuery.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50194"
+		Debug.AspNetCompiler.PhysicalPath = "WebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50194\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50194"
+		Release.AspNetCompiler.PhysicalPath = "WebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50194\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50194"
+		SlnRelativePath = "WebService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASPVB", "ASPVB\ASPVB.vbproj", "{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EDE74C4-08FF-474B-9889-08BEE0986AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDE74C4-08FF-474B-9889-08BEE0986AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDE74C4-08FF-474B-9889-08BEE0986AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EDE74C4-08FF-474B-9889-08BEE0986AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7B7896-A6C3-4B6B-8F59-8ECC85244155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7B7896-A6C3-4B6B-8F59-8ECC85244155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7B7896-A6C3-4B6B-8F59-8ECC85244155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7B7896-A6C3-4B6B-8F59-8ECC85244155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12ED862E-293C-49E2-8921-53269C07CC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12ED862E-293C-49E2-8921-53269C07CC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12ED862E-293C-49E2-8921-53269C07CC9F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{12ED862E-293C-49E2-8921-53269C07CC9F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8E53D2-B177-494B-AE08-1CEEF98E43D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2277608-D2BE-4B7D-AECA-6011CE887534}
+	EndGlobalSection
+EndGlobal

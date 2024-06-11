@@ -1,0 +1,7 @@
+How to Add Web Service in Asp.Net?
+Add -> Asp.Net Empty WebSite.
+
+//What is WebService?
+//Web services are components on a Web server that a client application can call by making HTTP requests
+//across the Web. ASP.NET enables you to create custom Web services or to use built-in application services,
+//and to call these services from any client application.
